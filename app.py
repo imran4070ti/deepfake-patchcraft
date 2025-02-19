@@ -35,7 +35,7 @@ jwt = JWTManager(app)
 # AUTHENTICATION ENDPOINTS
 # -----------------------------------------------------------------------------
 
-@app.route('/register', methods=['POST'])
+@app.route('/deepfake/register', methods=['POST'])
 def register():
     """
     Register a new user.
@@ -82,7 +82,7 @@ def register():
 
     return jsonify({'msg': 'User registered successfully.'}), 200
 
-@app.route('/login', methods=['POST'])
+@app.route('/deepfake/login', methods=['POST'])
 def login():
     """
     Login a user.
@@ -123,7 +123,7 @@ def login():
 # PROTECTED DEEPFAKE PREDICTION ENDPOINT
 # -----------------------------------------------------------------------------
 
-@app.route('/predict', methods=['POST'])
+@app.route('/deepfake/predict', methods=['POST'])
 @jwt_required()  # This decorator enforces that a valid JWT must be sent with the request.
 def predict():
     """

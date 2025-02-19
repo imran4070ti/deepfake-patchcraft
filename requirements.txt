@@ -1,6 +1,6 @@
 flask
-torch
-torchvision
+# torch
+# torchvision
 pillow
 opencv-python
 numpy
