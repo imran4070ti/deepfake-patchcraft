@@ -18,3 +18,8 @@ uploads/
 temp/
 
 passenger_wsgi.py
+passenger_wsgi.py
+public/
+stderr.log
+tmp/
+users.json
