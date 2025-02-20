@@ -1,6 +1,6 @@
 flask
-# torch
-# torchvision
+torch
+torchvision
 pillow
 opencv-python
 numpy
@@ -8,3 +8,5 @@ werkzeug
 flask-jwt-extended
 python-dotenv
 scipy
+Flask-Cors
+Flask-Mail

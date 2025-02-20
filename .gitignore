@@ -1,0 +1,17 @@
+# Environment variables
+.env
+config.json
+users.json
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+.env/
+
+# Uploads and temp files
+uploads/
+temp/
