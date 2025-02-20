@@ -14,7 +14,7 @@ venv/
 
 # Uploads and temp files
 uploads/
-<<<<<<< HEAD
+
 temp/
 
 passenger_wsgi.py
