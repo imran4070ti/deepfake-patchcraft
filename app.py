@@ -34,7 +34,7 @@ CORS(app)
 # -----------------------------------------------------------------------------
 # Set the secret key from an environment variable for improved security.
 app.config['JWT_SECRET_KEY'] = os.getenv('JWT_SECRET_KEY')  # Ensure this is set in your .env file
-app.config['JWT_ACCESS_TOKEN_EXPIRES'] = timedelta(hours=2) #minutes=1440
+app.config['JWT_ACCESS_TOKEN_EXPIRES'] = timedelta(hours=24) #minutes=1440
 jwt = JWTManager(app)
 
 # -----------------------------------------------------------------------------
